@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="소프트웨어 아키텍처 전문가 황희정 교수 개인 홈페이지" />
+  <title>황희정 교수 | SELab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand">Prof. Heejoung Hwang</a>
+      <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#profile">프로필</a>
+        <a href="#about">소개</a>
+        <a href="#news">새소식</a>
+        <a href="#papers">논문</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#patents">특허</a>
+        <a href="#awards">수상</a>
+        <a href="#books">저서</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="profile">
+      <div class="container hero-grid">
+        <img
+          class="profile-photo"
+          src="img/profile.jpg"
+          alt="황희정 교수 프로필 사진"
+        />
+        <div class="hero-text">
+          <p class="eyebrow">Software Engineering</p>
+          <h1>황희정 교수</h1>
+          <p class="subtitle">Ph.D., Professor, Department of Computer Engineering</p>
+          <p>
+            대규모 소프트웨어 아키텍처, AI 기반 개발 생산성, 신뢰성 공학을 연구합니다.
+            산업체와 협업하여 실제 배포 환경에서 검증 가능한 소프트웨어 엔지니어링 방법론을 개발합니다.
+          </p>
+          <ul class="quick-info">
+            <li><strong>Email</strong> hwanghj@gachon.ac.kr</li>
+            <li><strong>Office</strong> AI 공학관 319호</li>
+            <li><strong>Phone</strong> +82-31-750-4513</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>교수 소개</h2>
+        <p>
+          황희정 교수는 2012년부터 소프트웨어 엔지니어링 분야에서 교육과 연구를 수행하고 있습니다.
+          서울대학교에서 컴퓨터공학 학사, KAIST에서 소프트웨어공학 석사 및 박사 학위를 취득했으며,
+          글로벌 클라우드 기업 연구소에서 시니어 리서처로 활동한 뒤 대학으로 복귀했습니다.
+        </p>
+        <p>
+          현재는 안전 필수 시스템의 테스트 자동화, 코드 품질 메트릭, 개발자 경험(Developer Experience)
+          향상을 위한 도구 설계를 중심으로 연구실을 운영하고 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="container">
+        <h2>새소식</h2>
+        <div class="news-board-wrap">
+          <table class="news-board">
+            <caption>교수 연구실 공지 및 소식</caption>
+            <thead>
+              <tr>
+                <th scope="col">번호</th>
+                <th scope="col">제목</th>
+                <th scope="col">분류</th>
+                <th scope="col">작성일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>18</td>
+                <td><a href="news/18.html">국제 공동연구 과제 선정: Trustworthy DevOps for AI-Native Systems</a></td>
+                <td>연구</td>
+                <td>2026-02-20</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td><a href="news/17.html">2026학년도 1학기 연구실 인턴 및 대학원생 모집 안내</a></td>
+                <td>모집</td>
+                <td>2026-01-10</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td><a href="news/16.html">ICSE 2026 논문 채택: Microservice Failure Propagation</a></td>
+                <td>논문</td>
+                <td>2025-12-05</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td><a href="news/15.html">산학협력 세미나 개최: AI 기반 코드 리뷰 자동화</a></td>
+                <td>행사</td>
+                <td>2025-11-16</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td><a href="news/14.html">SE-Guardian 베타 버전 공개 및 기술 데모 영상 배포</a></td>
+                <td>프로젝트</td>
+                <td>2025-10-02</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="papers">
+      <div class="container">
+        <h2>대표 논문</h2>
+        <ol class="list">
+          <li>
+            <strong>Predicting Failure Propagation in Microservice Systems</strong>
+            <span>ICSE, 2026</span>
+          </li>
+          <li>
+            <strong>Practical Metrics for Developer Experience in CI/CD</strong>
+            <span>IEEE TSE, 2025</span>
+          </li>
+          <li>
+            <strong>Automated Test Prioritization under Rapid Release Cycles</strong>
+            <span>ASE, 2024</span>
+          </li>
+          <li>
+            <strong>Human-AI Collaboration Patterns in Code Review</strong>
+            <span>FSE, 2023</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>프로젝트</h2>
+        <div class="project-list">
+          <article class="project-item">
+            <img
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+              alt="SE-Guardian 프로젝트 대시보드 예시"
+            />
+            <div class="project-body">
+              <h3>SE-Guardian (2024-2027)</h3>
+              <p>
+                대규모 서비스 배포 이전에 코드 변경 위험도를 자동 평가하는 정적/동적 분석 통합 플랫폼입니다.
+                코드 복잡도, 테스트 커버리지, 장애 이력 데이터를 결합해 배포 승인 의사결정을 지원합니다.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
+              alt="EduRepo Analytics 교육 데이터 분석 화면 예시"
+            />
+            <div class="project-body">
+              <h3>EduRepo Analytics (2023-2025)</h3>
+              <p>
+                교육용 Git 저장소 데이터를 분석해 팀별 협업 패턴과 코드 품질 변화를 시각화하는 프로젝트입니다.
+                교수자에게는 진도 기반 피드백을, 학습자에게는 개인화된 개선 가이드를 제공합니다.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+              alt="SafeML Pipeline 모니터링 아키텍처 다이어그램 예시"
+            />
+            <div class="project-body">
+              <h3>SafeML Pipeline (2022-2024)</h3>
+              <p>
+                머신러닝 기반 소프트웨어의 품질 보증을 위해 테스트 케이스 자동 생성, 모델 드리프트 감지,
+                운영 환경 이상징후 모니터링을 통합한 프레임워크를 개발했습니다.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="patents">
+      <div class="container">
+        <h2>특허</h2>
+        <ul class="list">
+          <li>
+            <strong>실시간 코드 변경 위험도 예측 장치 및 방법</strong>
+            <span>등록번호 10-2025-1234567</span>
+          </li>
+          <li>
+            <strong>분산 시스템 장애 연쇄 분석 시스템</strong>
+            <span>등록번호 10-2024-7654321</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="awards">
+      <div class="container">
+        <h2>수상</h2>
+        <ul class="list">
+          <li><strong>우수연구상</strong> 한국소프트웨어공학회, 2025</li>
+          <li><strong>Best Paper Award</strong> ASE, 2024</li>
+          <li><strong>교육혁신상</strong> OO대학교, 2023</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="books">
+      <div class="container">
+        <h2>저서</h2>
+        <ul class="list">
+          <li><strong>현대 소프트웨어 아키텍처</strong>, 한빛아카데미, 2025</li>
+          <li><strong>데브옵스 품질공학 입문</strong>, 위키북스, 2023</li>
+          <li><strong>테스트 자동화 설계 패턴</strong>, 인사이트, 2021</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 김도윤 교수 연구실. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
