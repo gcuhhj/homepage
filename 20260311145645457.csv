@@ -1,0 +1,37 @@
+﻿기준년도,학술지구분,학술지명,ISSN번호,발행처명,게재권/집,게재호,시작페이지,끝페이지,논문제목(원어),논문제목(타언어),투고년월,전체저자수,인용지수
+2026,KCI,한국정보기술학회논문지,1598-8619,한국정보기술학회,23,11,215,222,의료정보 연동 AI 에이전트를 위한 MCP-FHIR 서버 아키텍처,MCP-FHIR Server Architecture for Medical Information Integration AI Agents,202509,1,0.000
+2024,KCI,한국정보기술학회논문지,1598-8619,한국정보기술학회,22,8,55,64,스마트 의료용 베드의 통합 관리를 위한 인터페이스 시스템 설계 및 구현,Design and Implementation of Interface System for Integrated Smart Medical Bed Management,202404,2,0.000
+2024,KCI,한국정보기술학회논문지,1598-8619,한국정보기술학회,22,8,31,40,Optimizing DenseNet for Image Classification: A Synergy of Dual-Adaptive Attention and Multi-Scale Feature Extraction,Optimizing DenseNet for Image Classification: A Synergy of Dual-Adaptive Attention and Multi-Scale Feature Extraction,202404,2,0.000
+2023,KCI,한국정보기술학회논문지,1598-8619,한국정보기술학회,21,9,41,50,플라스틱 원료 혼합기의 자동 보정 소프트웨어를 위한 머신러닝 예측 모델,Machine Learning Predictive Model for Automatic Calibration Software in Plastic Raw Material Mixer,202307,1,0.000
+2022,SCIE,ELECTRONICS,2079-9292,MDPI,11,16,0,0,VGG-C Transform Model with Batch Normalization to Predict Alzheimer's Disease through MRI Dataset,,202207,2,2.690
+2022,KCI,멀티미디어학회논문지,1229-7771,한국멀티미디어학회,25,7,922,931,하이퍼레저 패브릭과 비대칭키 암호화 기술을 결합한 건강정보 관리서버,Hyperledger Fabric and Asymmetric Key Encryption  for Health Information Management Server,202205,2,0.000
+2021,KCI,융복합지식학회논문지,2287-8920,융복합지식학회,9,3,71,80,멀티채널 데이터 방송을 이용한 CCR 기반 헬스케어 서비스 설계와 구현,An Implementation and Design of CCR-based Healthcare Service Using Multi-Channel Data Broadcasting,202108,2,0.000
+2020,KCI,멀티미디어학회논문지,1229-7771,한국멀티미디어학회,23,12,1496,1506,개인 건강 정보 처리를 위한 배치 어플리케이션에서 데이터 질의 속도 향상을 위한 PHDItemReader 설계 및 구현,Desgin and Implementation of PHDItemReader to Speed up Data Query in Batch Application for Processing Personal Health Recor,202009,2,0.000
+2020,KCI,"The International Journal of Internet, Broadcasting and Communication",2288-4920,한국인터넷방송통신학회,12,4,109,121,Design of Remote Management System for Smart Factory,Design of Remote Management System for Smart Factory,202008,1,0.000
+2019,KCI,멀티미디어학회논문지,1229-7771,한국멀티미디어학,22,11,1288,1299,개인 건강 정보 관리를 위한 통합 리파지토리 및 웹 기반 대시보드 UI 컴포넌트 설계 및 구현,Design and Implementation of Web-based Dashboard UI Components and Integrated Repository for Personal Health Records Management,201910,2,
+2019,KCI,멀티미디어학회논문지,1229-7771,한국멀티미디어학,22,5,601,612,스마트 팩토리에서 원격 실시간 모니터링을 위한 게이트웨이 인터페이스 연동 API 설계 및 구현,Design and Implement of Smart Gateway Interface API for Real-time Monitoring in Smart Factory,201904,3,
+2018,KCI,멀티미디어학회논문지,1229-7771,한국멀티미디어학회,21,8,934,941,HL7 FHIR 기반 의료 데이터 처리 시스템에서 YCSB를통한 RDBMS와 MongoDB의 성능 분석 연구,Performance Analysis of RDBMS and MongoDB through YCSB in Medical Data Processing System Based HL7 FHIR,201807,3,
+2018,SCIE,JOURNAL OF MEDICAL IMAGING AND HEALTH INFORMATICS,2156-7018,AMER SCIENTIFIC PUBLISHERS,8,4,660,668,Energy-Efficient Data Access Using Spatial Index in the Wireless Data Broadcast for Location-Dependent Healthcare Services,,201703,3,0.621
+2017,SCIE,IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES,1745-1337,IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG,E100A,4,1092,1096,Quick Window Query Processing Using a Non-Uniform Cell-Based Index in Wireless Data Broadcast Environment,,201609,2,0.236
+2017,SCIE,IEICE TRANSACTIONS ON INFORMATION AND SYSTEMS,1745-1361,IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG,E99D,11,2809,2813,An Index Based on Irregular Identifier Space Partition for Quick Multiple Data Access in Wireless Data Broadcasting,,201604,2,0.226
+2016,KCI,한국정보기술학회논문지,1598-8619,한국정보기술학회,14,10,113,122,표준 기반 헬스케어 플랫폼과의 개인 건강 데이터 공유를 위한 모바일 프레임워크 설계,Mobile Framework Designed for Sharing Personal Health Data in Standards-Based Healthcare Platform,201606,2,
+2016,KCI,한국인터넷방송통신학회 논문지,2289-0238,한국인터넷방송통신학회,16,5,117,123,응급 상황 처리를 위한 안전한 개인건강기록 시스템,A Secure Personal Health Record System for Handling of Emergency Situations,201605,2,
+2016,KCI,한국인터넷방송통신학회 논문지,2289-0238,한국인터넷방송통신학회,16,5,137,142,TOS와 Mobile device 간의 펍섭 QoS를 지원하는 대량 커넥션 서비스 브로커 설계,Design of a Service Broker for Large Scale Connections to Support Pubsub QoS between TOS and Mobile Devices,201605,2,
+2016,KCI,한국인터넷방송통신학회 논문지,2289-0238,한국인터넷방송통신학회,16,4,109,115,개인 건강 라이프로그 서비스에서보안 참조 모델에 관한 연구,A Study on Security Reference Model in Personal Health Lifelog Services,201606,2,
+2016,KCI,한국인터넷방송통신학회 논문지,2289-0238,한국인터넷방송통신학회,16,4,139,145,개인화된 건강 자원 조회를 위한 TOS 와 HL7 FHIR 서비스간의 데이터그리드 모델 설계,Design of a Data Grid Model between TOS and HL7 FHIR Service for the Retrieval of Personalized Health Resources,201605,3,
+2015,KCI,Journal of exercise rehabilitation,19766319,한국운동재활학회,11,6,320,325,Study deviance-type scale in the development of Korean elder,,201511,3,
+2015,KCI,한국정보기술학회논문지,15988619,한국정보기술학회,13,12,115,122,힐링 서비스 환경에서 시각장애인의 웹서비스 접근성 향상을 위한 사용자 인터페이스 구조 설계,Design of User Interface for Improving the Web Service Accessibility of the Blind in Healing Service Environments,201511,2,
+2015,SCIE,ASIA LIFE SCIENCES,0117-3375,ASIA LIFE SCIENCES,,,293,308,Quick spatial data access using expanded cells in non-flat wireless data broadcast over multiple channels,,201509,3,0.075
+2015,KCI,전기전자학회논문지,12267244,한국전기전자학회,19,4,548,556,개인건강서비스를 위한 보안 요구사항,Security Requirements of Personal Health Service,201512,2,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,6,187,193,개인화된 건강 데이터의 대량 처리 모니터링을 위한 메시지 모델 및 동적 버퍼 할당 설계,Design of Dynamic Buffer Assignment and Message model for Large-scale Process Monitoring of Personalized Health Data,201510,2,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,6,163,171,개인건강기록 서비스에서 보안취약성 및위협요소에 관한 연구,A Study on Security Weakness and Threats in Personal Health Record Services,201510,2,
+2015,KCI,멀티미디어학회논문지,12297771,한국멀티미디어학회,18,12,1538,1546,수면 테라피 서비스를 위한 PSQI 지원 가상 수면센서,Virtual Sleep Sensor with PSQI for Sleep Therapy Service,201511,2,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,5,169,175,XML 기반 CCR 문서의 무선 데이터 방송을 위한 프레임워크의 설계와 구현,Design and Development of Framework for Wireless Data Broadcast of XML-based CCR Documents,201509,2,
+2015,KCI,전기전자학회논문지,12267244,한국전기전자학회,19,3,447,454,ISO/IEEE 11073 개인건강기기 표준의 PM-store 구현을 위한 복잡도 분석,Complexity Analysis for Implementation of the PM-store of ISO/IEEE 11073 PHD Standards,201406,4,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,4,153,159,클라우드 환경의 OAuth2 기반 건강 데이터 중계프레임워크 설계 및 구현,Design and Development of Framework for Health Data Relay based on OAuth2 in Cloud Environment,201505,2,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,4,177,183,개인화된 건강 데이터 처리를 위한 2-Step 개방형 시스템의 설계,Design of Two-Step Open System for Personalized Health Data Access,201505,2,
+2015,KCI,한국정보기술학회논문지,15988619,한국정보기술학회,13,8,71,80,안전한 개인건강기록 관리 시스템 설계,Design of Secure Personal Health Record Management Systems,201507,2,
+2015,SCIE,International Journal of Control and Automation,2005-4297,IJCA,8,8,223,232,Solidstream: NGS encoding utility with high speed and high efficiency considering transmission bandwidth of cloud environments,,201503,3,
+2015,SCOPUS,Journal of exercise rehabilitation,19766319,한국운동재활학회,11,3,125,132,A study on the social behavior and social isolation of the elderly Korea,,201505,2,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,2,157,165,무선 네트워크 환경에서 사용자 이동행위 기반 저전력 라이프로그 관리기법,A Low Power Lifelog Management Scheme Based on User Movement Behaviors in Wireless Networks,201502,2,
+2015,KCI,한국인터넷방송통신학회 논문지,22890238,한국인터넷방송통신학회,15,1,229,235,개인화된 힐링 데이터 접근을 위한개방형 게이트웨이 프레임워크 설계,Design of Open Gateway Framework for Personalized Healing Data Access,201412,3,

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="ko">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="site-header" id="top">
     <div class="container header-inner">
@@ -18,31 +20,26 @@
       <nav class="nav" aria-label="주요 메뉴">
         <a href="#profile">프로필</a>
         <a href="#about">소개</a>
-        <a href="#news">새소식</a>
+        <a href="#news">산학소식</a>
         <a href="#papers">논문</a>
-        <a href="#projects">프로젝트</a>
+        <a href="#books">저서</a>
         <a href="#patents">특허</a>
         <a href="#awards">수상</a>
-        <a href="#books">저서</a>
       </nav>
     </div>
   </header>
-  <h2>페이지 준비 중 입니다 - Under Construction!!</h2>
   <main>
     <section class="hero section" id="profile">
       <div class="container hero-grid">
-        <img
-          class="profile-photo"
-          src="img/profile.jpg"
-          alt="황희정 교수 프로필 사진"
-        />
+        <img class="profile-photo" src="img/profile.jpg" alt="황희정 교수 프로필 사진" />
         <div class="hero-text">
           <p class="eyebrow">Software Engineering</p>
           <h1>황희정 교수</h1>
-          <p class="subtitle">Ph.D., Professor, Department of Computer Engineering</p>
+          <p class="subtitle">Ph.D., Professor</p>
+          <p class="subtitle">Department of Computer Engineering</p>
           <p>
-            대규모 소프트웨어 아키텍처, AI 기반 개발 생산성, 신뢰성 공학을 연구합니다.
-            산업체와 협업하여 실제 배포 환경에서 검증 가능한 소프트웨어 엔지니어링 방법론을 개발합니다.
+            대규모 소프트웨어 아키텍처, AI 기반 개발 생산성, High-efficiency LLM Serving, OHDEP(Open Health Data Exchange Platform) 등을 연구합니다.
+            산업체와 협업하여 실제 배포 환경에서 검증 가능한 소프트웨어 엔지니어링 방법론 및 플랫폼 개발을 진행해 왔습니다.
           </p>
           <ul class="quick-info">
             <li><strong>Email</strong> hwanghj@gachon.ac.kr</li>
@@ -57,20 +54,31 @@
       <div class="container">
         <h2>교수 소개</h2>
         <p>
-          황희정 교수는 2012년부터 소프트웨어 엔지니어링 분야에서 교육과 연구를 수행하고 있습니다.
-          서울대학교에서 컴퓨터공학 학사, KAIST에서 소프트웨어공학 석사 및 박사 학위를 취득했으며,
-          글로벌 클라우드 기업 연구소에서 시니어 리서처로 활동한 뒤 대학으로 복귀했습니다.
+          황희정 교수는 1995년 (주)넥스텔 뉴미디어연구소에서 국내 최초의 민간 부분 인터넷 서비스 시작에서 부터
+          삼성그룹, 금호 아시아나그룹의 전사 웹 시스템 개발, 삼성전자 포토줌 개발, 대한 체육회 웹 스포츠 DB개발 등 다양한 대형 프로젝트에서 개발 PM을 담당했으며
+          객체지향, 미들웨어, 분산객체 분야의 소프트웨어 엔지니어링 전문가로서 활동해 왔습니다.<br><br>
+
+          인하대학교에서 컴퓨터공학 석사, 인천대학교에서 박사 학위를 취득했으며, 2000년부터 가천대학교 컴퓨터공학과 교수로 재직 중입니다.
         </p>
         <p>
-          현재는 안전 필수 시스템의 테스트 자동화, 코드 품질 메트릭, 개발자 경험(Developer Experience)
-          향상을 위한 도구 설계를 중심으로 연구실을 운영하고 있습니다.
+        <h3>주요 활동</h3>
+        <ul>
+          <li>2022년 부터 현재: 삼성 SDS Associate Architect 사내 프로그램 자문 교수</li>
+          <li>현 TTA PG-419 표준화 특별위원</li>
+          <li>현 (사)융복합 지식학회 부회장</li>
+          <li>임베디드sw산업협회 의료 IT 분과장 역임</li>
+          <li>정보통신산업진흥원(NIPA) MP/PS 역임 - 임베디드 융합(의료IT분야)</li>
+          <li>교육과학기술부 국가 기술수준평가 전문위원</li>
+          <li>한국보건산업진흥원 - 유헬스케어R&D중장기 전략수립위원, PM운영 위원</li>
+
+        </ul>
         </p>
       </div>
     </section>
 
     <section class="section" id="news">
       <div class="container">
-        <h2>새소식</h2>
+        <h2>산학소식</h2>
         <div class="news-board-wrap">
           <table class="news-board">
             <caption>교수 연구실 공지 및 소식</caption>
@@ -84,34 +92,40 @@
             </thead>
             <tbody>
               <tr>
-                <td>18</td>
-                <td><a href="news/18.html">국제 공동연구 과제 선정: Trustworthy DevOps for AI-Native Systems</a></td>
-                <td>연구</td>
-                <td>2026-02-20</td>
+                <td>0</td>
+                <td><a href="news/0.html">삼성SDS Associate Architec 사내프로그램 컨설팅</a></td>
+                <td>컨설팅</td>
+                <td>2026-01-20</td>
               </tr>
               <tr>
-                <td>17</td>
-                <td><a href="news/17.html">2026학년도 1학기 연구실 인턴 및 대학원생 모집 안내</a></td>
-                <td>모집</td>
-                <td>2026-01-10</td>
+                <td>1</td>
+                <td><a href="news/1.html">(주)에이아이젬 공동 연구실 개설 및 기부식</a></td>
+                <td>산학협력</td>
+                <td>2023-03-22</td>
               </tr>
               <tr>
-                <td>16</td>
-                <td><a href="news/16.html">ICSE 2026 논문 채택: Microservice Failure Propagation</a></td>
-                <td>논문</td>
-                <td>2025-12-05</td>
+                <td>2</td>
+                <td><a href="news/2.html">특허 기술 이전 - (주)카이아이</a></td>
+                <td>기술이전</td>
+                <td>2024-01-30</td>
               </tr>
               <tr>
-                <td>15</td>
-                <td><a href="news/15.html">산학협력 세미나 개최: AI 기반 코드 리뷰 자동화</a></td>
-                <td>행사</td>
-                <td>2025-11-16</td>
+                <td>3</td>
+                <td><a href="news/3.html">OHDEP 소개자료</a></td>
+                <td>기술소개</td>
+                <td>2022-12-05</td>
               </tr>
               <tr>
-                <td>14</td>
-                <td><a href="news/14.html">SE-Guardian 베타 버전 공개 및 기술 데모 영상 배포</a></td>
-                <td>프로젝트</td>
-                <td>2025-10-02</td>
+                <td>4</td>
+                <td><a href="news/4.html">(주)나연테크 기술이전</a></td>
+                <td>기술이전</td>
+                <td>2023-11-16</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td><a href="news/5.html">소프트랜더스(주) 서비스 플랫폼 자문</a></td>
+                <td>컨설팅</td>
+                <td>2021-11-04</td>
               </tr>
             </tbody>
           </table>
@@ -122,69 +136,293 @@
     <section class="section" id="papers">
       <div class="container">
         <h2>대표 논문</h2>
-        <ol class="list">
-          <li>
-            <strong>Predicting Failure Propagation in Microservice Systems</strong>
-            <span>ICSE, 2026</span>
-          </li>
-          <li>
-            <strong>Practical Metrics for Developer Experience in CI/CD</strong>
-            <span>IEEE TSE, 2025</span>
-          </li>
-          <li>
-            <strong>Automated Test Prioritization under Rapid Release Cycles</strong>
-            <span>ASE, 2024</span>
-          </li>
-          <li>
-            <strong>Human-AI Collaboration Patterns in Code Review</strong>
-            <span>FSE, 2023</span>
-          </li>
-        </ol>
+        <div class="news-board-wrap">
+          <table class="news-board">
+            <thead>
+              <tr>
+                <th scope="col" style="width:100px">번호</th>
+                <th scope="col">구분</th>
+                <th scope="col">논문명</th>
+                <th scope="col">학술지명</th>
+                <th scope="col">논문제목</th>
+                <th scope="col" style="width: 130px;">게재년월일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>KCI</td>
+                <td>한국정보기술학회논문지</td>
+                <td>한국정보기술학회</td>
+                <td>의료정보 연동 AI 에이전트를 위한 MCP-FHIR 서버 아키텍처</td>
+                <td>2025-09</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>KCI</td>
+                <td>한국정보기술학회논문지</td>
+                <td>한국정보기술학회</td>
+                <td>스마트 의료용 베드의 통합 관리를 위한 인터페이스 시스템 설계 및 구현</td>
+                <td>2024-04</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>KCI</td>
+                <td>한국정보기술학회논문지</td>
+                <td>한국정보기술학회</td>
+                <td>Optimizing DenseNet for Image Classification: A Synergy of Dual-Adaptive Attention and Multi-Scale Feature Extraction</td>
+                <td>2024-04</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>KCI</td>
+                <td>한국정보기술학회논문지</td>
+                <td>한국정보기술학회</td>
+                <td>플라스틱 원료 혼합기의 자동 보정 소프트웨어를 위한 머신러닝 예측 모델</td>
+                <td>2023-07</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>SCIE</td>
+                <td>ELECTRONICS</td>
+                <td>MDPI</td>
+                <td>VGG-C Transform Model with Batch Normalization to Predict Alzheimer's Disease through MRI Dataset</td>
+                <td>2022-07</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>KCI</td>
+                <td>멀티미디어학회논문지</td>
+                <td>한국멀티미디어학회</td>
+                <td>하이퍼레저 패브릭과 비대칭키 암호화 기술을 결합한 건강정보 관리서버</td>
+                <td>2022-05</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>KCI</td>
+                <td>융복합지식학회논문지</td>
+                <td>융복합지식학회</td>
+                <td>멀티채널 데이터 방송을 이용한 CCR 기반 헬스케어 서비스 설계와 구현</td>
+                <td>2021-08</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>KCI</td>
+                <td>멀티미디어학회논문지</td>
+                <td>한국멀티미디어학회</td>
+                <td>개인 건강 정보 처리를 위한 배치 어플리케이션에서 데이터 질의 속도 향상을 위한 PHDItemReader 설계 및 구현</td>
+                <td>2020-09</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>KCI</td>
+                <td>The International Journal of Internet, Broadcasting and Communication</td>
+                <td>한국인터넷방송통신학회</td>
+                <td>Design of Remote Management System for Smart Factory</td>
+                <td>2020-08</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>KCI</td>
+                <td>멀티미디어학회논문지</td>
+                <td>한국멀티미디어학</td>
+                <td>개인 건강 정보 관리를 위한 통합 리파지토리 및 웹 기반 대시보드 UI 컴포넌트 설계 및 구현</td>
+                <td>2019-10</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>KCI</td>
+                <td>멀티미디어학회논문지</td>
+                <td>한국멀티미디어학</td>
+                <td>스마트 팩토리에서 원격 실시간 모니터링을 위한 게이트웨이 인터페이스 연동 API 설계 및 구현</td>
+                <td>2019-04</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>KCI</td>
+                <td>멀티미디어학회논문지</td>
+                <td>한국멀티미디어학회</td>
+                <td>HL7 FHIR 기반 의료 데이터 처리 시스템에서 YCSB를 통한 RDBMS와 MongoDB의 성능 분석 연구</td>
+                <td>2018-07</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>SCIE</td>
+                <td>JOURNAL OF MEDICAL IMAGING AND HEALTH INFORMATICS</td>
+                <td>AMER SCIENTIFIC PUBLISHERS</td>
+                <td>Energy-Efficient Data Access Using Spatial Index in the Wireless Data Broadcast for Location-Dependent Healthcare Services</td>
+                <td>2017-03</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>SCIE</td>
+                <td>IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES</td>
+                <td>IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG</td>
+                <td>Quick Window Query Processing Using a Non-Uniform Cell-Based Index in Wireless Data Broadcast Environment</td>
+                <td>2016-09</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>SCIE</td>
+                <td>IEICE TRANSACTIONS ON INFORMATION AND SYSTEMS</td>
+                <td>IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG</td>
+                <td>An Index Based on Irregular Identifier Space Partition for Quick Multiple Data Access in Wireless Data Broadcasting</td>
+                <td>2016-04</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>KCI</td>
+                <td>한국정보기술학회논문지</td>
+                <td>한국정보기술학회</td>
+                <td>표준 기반 헬스케어 플랫폼과의 개인 건강 데이터 공유를 위한 모바일 프레임워크 설계</td>
+                <td>2016-06</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>KCI</td>
+                <td>한국인터넷방송통신학회 논문지</td>
+                <td>한국인터넷방송통신학회</td>
+                <td>응급 상황 처리를 위한 안전한 개인건강기록 시스템</td>
+                <td>2016-05</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>KCI</td>
+                <td>한국인터넷방송통신학회 논문지</td>
+                <td>한국인터넷방송통신학회</td>
+                <td>TOS와 Mobile device 간의 펍섭 QoS를 지원하는 대량 커넥션 서비스 브로커 설계</td>
+                <td>2016-05</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>KCI</td>
+                <td>한국인터넷방송통신학회 논문지</td>
+                <td>한국인터넷방송통신학회</td>
+                <td>개인 건강 라이프로그 서비스에서 보안 참조 모델에 관한 연구</td>
+                <td>2016-06</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>KCI</td>
+                <td>한국인터넷방송통신학회 논문지</td>
+                <td>한국인터넷방송통신학회</td>
+                <td>개인화된 건강 자원 조회를 위한 TOS 와 HL7 FHIR 서비스간의 데이터그리드 모델 설계</td>
+                <td>2016-05</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="projects">
+    <section class="section" id="books">
       <div class="container">
-        <h2>프로젝트</h2>
+        <h2>저서</h2>
         <div class="project-list">
           <article class="project-item">
-            <img
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
-              alt="SE-Guardian 프로젝트 대시보드 예시"
-            />
+            <img src="img/1.jpg" alt="Book Cover" />
             <div class="project-body">
-              <h3>SE-Guardian (2024-2027)</h3>
+              <h3>IT CookBook, 짧고 굵게 배우는 JSP 웹 프로그래밍과 스프링 프레임워크</h3>
               <p>
-                대규모 서비스 배포 이전에 코드 변경 위험도를 자동 평가하는 정적/동적 분석 통합 플랫폼입니다.
-                코드 복잡도, 테스트 커버리지, 장애 이력 데이터를 결합해 배포 승인 의사결정을 지원합니다.
+                <strong>발행처:</strong> 한빛 아카데미<br>
+                <strong>발행일자:</strong> 2021.08.09<br>
+                <strong>ISBN:</strong> 9791156645573
               </p>
             </div>
           </article>
 
           <article class="project-item">
-            <img
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
-              alt="EduRepo Analytics 교육 데이터 분석 화면 예시"
-            />
+            <img src="img/2.jpg" alt="Book Cover" />
             <div class="project-body">
-              <h3>EduRepo Analytics (2023-2025)</h3>
+              <h3>Just Java : 객체지향에 충실한 자바다운 자바</h3>
               <p>
-                교육용 Git 저장소 데이터를 분석해 팀별 협업 패턴과 코드 품질 변화를 시각화하는 프로젝트입니다.
-                교수자에게는 진도 기반 피드백을, 학습자에게는 개인화된 개선 가이드를 제공합니다.
+                <strong>발행처:</strong> 한빛아카데미<br>
+                <strong>발행일자:</strong> 2015.10.26<br>
+                <strong>ISBN:</strong> 9791156642015
               </p>
             </div>
           </article>
 
           <article class="project-item">
-            <img
-              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
-              alt="SafeML Pipeline 모니터링 아키텍처 다이어그램 예시"
-            />
+            <img src="img/3.jpg" alt="Book Cover" />
             <div class="project-body">
-              <h3>SafeML Pipeline (2022-2024)</h3>
+              <h3>프로젝트로 배우는 자바 웹 프로그래밍</h3>
               <p>
-                머신러닝 기반 소프트웨어의 품질 보증을 위해 테스트 케이스 자동 생성, 모델 드리프트 감지,
-                운영 환경 이상징후 모니터링을 통합한 프레임워크를 개발했습니다.
+                <strong>발행처:</strong> 한빛아카데미<br>
+                <strong>발행일자:</strong> 2014.01.02<br>
+                <strong>ISBN:</strong> 9788998756680
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img src="img/4.jpg" alt="Book Cover" />
+            <div class="project-body">
+              <h3>자바 포 비기너</h3>
+              <p>
+                <strong>발행처:</strong> 한빛미디어<br>
+                <strong>발행일자:</strong> 2008.12.22<br>
+                <strong>ISBN:</strong> 978-89-7914-599-1
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img src="img/5.jpg" alt="Book Cover" />
+            <div class="project-body">
+              <h3>자바 웹 프로그래밍 개정판</h3>
+              <p>
+                <strong>발행처:</strong> 한빛미디어<br>
+                <strong>발행일자:</strong> 2007.07.30<br>
+                <strong>ISBN:</strong> 978-89-7914-498-7
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img src="img/6.jpg" alt="Book Cover" />
+            <div class="project-body">
+              <h3>자바 웹 프로그래밍-JSP,JDBC,Servlet</h3>
+              <p>
+                <strong>발행처:</strong> 한빛미디어<br>
+                <strong>발행일자:</strong> 2003.06.30<br>
+                <strong>ISBN:</strong> 89-7914-239-0
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img src="img/7.jpg" alt="Book Cover" />
+            <div class="project-body">
+              <h3>윈도우보다 쉬운 리눅스 쉽게 배우기</h3>
+              <p>
+                <strong>발행처:</strong> 영진닷컴<br>
+                <strong>발행일자:</strong> 2000.02.10<br>
+                <strong>ISBN:</strong> 89-314-1357-2
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img src="img/8.jpg" alt="Book Cover" />
+            <div class="project-body">
+              <h3>레드햇5.2 리눅스 서버</h3>
+              <p>
+                <strong>발행처:</strong> 대청미디어<br>
+                <strong>발행일자:</strong> 1999.04.15<br>
+                <strong>ISBN:</strong> 89-87939-17-0
+              </p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <img src="img/9.jpg" alt="Book Cover" />
+            <div class="project-body">
+              <h3>인터넷 서버 만들기</h3>
+              <p>
+                <strong>발행처:</strong> 대청<br>
+                <strong>발행일자:</strong> 1997.03.05<br>
+                <strong>ISBN:</strong> 89-86475-18-9
               </p>
             </div>
           </article>
@@ -194,49 +432,148 @@
 
     <section class="section" id="patents">
       <div class="container">
-        <h2>특허</h2>
-        <ul class="list">
-          <li>
-            <strong>실시간 코드 변경 위험도 예측 장치 및 방법</strong>
-            <span>등록번호 10-2025-1234567</span>
-          </li>
-          <li>
-            <strong>분산 시스템 장애 연쇄 분석 시스템</strong>
-            <span>등록번호 10-2024-7654321</span>
-          </li>
-        </ul>
+        <h2>지식재산권 (특허 및 소프트웨어)</h2>
+        <div class="news-board-wrap">
+          <table class="news-board">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 80px;">번호</th>
+                <th scope="col" style="width: 120px;">구분</th>
+                <th scope="col">지식재산권명</th>
+                <th scope="col" style="width: 200px;">등록(출원)번호</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>특허</td>
+                <td>허가형 블록체인 기술을 이용한 건강정보관리방법</td>
+                <td>10-2480890-0000</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>특허</td>
+                <td>허가형 블록체인 기술을 이용한 건강정보의 저장 및 거래방법</td>
+                <td>10-2463073-0000</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>특허</td>
+                <td>긴급도를 고려한 멀티채널에서의 CCR문서 수신 방법 및 시스템</td>
+                <td>10-2457321-0000</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>특허</td>
+                <td>긴급도를 고려한 멀티채널에서의 CCR문서 브로드캐스팅 방법 및 시스템</td>
+                <td>10-2457320-0000</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>특허</td>
+                <td>모바일 헬스 데이터의 의료기관 중계 시스템(RELAY SYSTEM FOR MEDICAL INST.)</td>
+                <td>10-1966752-0000</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>특허</td>
+                <td>개인화된 건강 데이터 중계 시스템 및 방법</td>
+                <td>10-1865073-0000</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>특허</td>
+                <td>XML 기반의 의료 정보를 무선 채널에 송신하는 서버 및 클라이언트</td>
+                <td>10-1685465-0000</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>소프트웨어</td>
+                <td>헬스케어 플랫폼 대시보드 UI 구성 모듈</td>
+                <td>C-2021-055860</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>소프트웨어</td>
+                <td>헬스케어 플랫폼 데이터 전송 API 모듈</td>
+                <td>C-2021-055859</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>소프트웨어</td>
+                <td>건강관리 서비스 플랫폼 데이터 형식 변환기</td>
+                <td>C-2021-055858</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>소프트웨어</td>
+                <td>무인 운전 시스템을 위한 보행자 탐지 모듈</td>
+                <td>C-2020-027420</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>소프트웨어</td>
+                <td>대용량 헬스케어 데이터의 통계를 위한 배치 처리 모듈</td>
+                <td>C-2020-027419</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
     <section class="section" id="awards">
       <div class="container">
         <h2>수상</h2>
-        <ul class="list">
-          <li><strong>우수연구상</strong> 한국소프트웨어공학회, 2025</li>
-          <li><strong>Best Paper Award</strong> ASE, 2024</li>
-          <li><strong>교육혁신상</strong> OO대학교, 2023</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="books">
-      <div class="container">
-        <h2>저서</h2>
-        <ul class="list">
-          <li><strong>현대 소프트웨어 아키텍처</strong>, 한빛아카데미, 2025</li>
-          <li><strong>데브옵스 품질공학 입문</strong>, 위키북스, 2023</li>
-          <li><strong>테스트 자동화 설계 패턴</strong>, 인사이트, 2021</li>
-        </ul>
+        <div class="news-board-wrap">
+          <table class="news-board">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 100px;">번호</th>
+                <th scope="col">수상명</th>
+                <th scope="col">수여기관</th>
+                <th scope="col" style="width: 130px;">수여년도</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>SW산업발전 국가 유공 표창</td>
+                <td>지식경제부 장관</td>
+                <td>2009</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>장은기술상</td>
+                <td>장기신용은행</td>
+                <td>1997</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>우수연구상</td>
+                <td>가천대학교</td>
+                <td>2011</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>우수교육자상</td>
+                <td>가천대학교</td>
+                <td>2011</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 김도윤 교수 연구실. All rights reserved.</p>
+      <p>© 2026 황희정 교수 - SELab. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
